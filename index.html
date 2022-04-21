@@ -63,10 +63,9 @@
     </div>
 
     <script>
-      function imgSlider(anything) {
-        document.querySelector(".organic-can").src = anything;
+      function imgSlider(img) {
+        document.querySelector(".organic-can").src = "img/" + img;
       }
-
       TweenMax.from(".navbar", 1, {
         delay: 1,
         x: -40,
